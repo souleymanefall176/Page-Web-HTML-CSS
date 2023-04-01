@@ -1,0 +1,176 @@
+body{
+    background-color: grey;
+}
+img{
+    width: 25px;
+}
+button{
+    color: black;
+}
+.search{
+    font-size: 2em;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+    height: 60px;
+    align-items: center;
+}
+
+.topnav .topnav-item a{
+    text-decoration: none;
+    padding: 0 50px 0 20px;
+    color: grey;
+}
+.topnav .search-container{
+    position: relative;
+    transform: translate(-15%, -15%);
+    display: flex;
+    margin-top: 10px;
+}
+.topnav  .search-container form input{
+    border:0px solid;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    bottom: -10px;
+     
+    
+}
+.topnav  .search-container form button{
+    
+    width: 40px;
+    height: 40px;
+    background: grey;
+    color: black;
+    border: none;
+     
+        
+}
+
+
+.une{
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+}
+.une img{
+    width: 98%;
+    margin-top: 5px;
+    border: 5px solid white;
+}
+.articles{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 500px;
+    margin-top: 10px;
+}
+.articles .article{
+    width:24%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    
+
+}
+.articles .article p{
+    text-align: justify;
+    display: inline-block;
+    width: 90%;
+    text-indent: 50px;
+}
+.articles .article a{
+    float: right;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+    
+
+.articles .article img{
+    width: 95%;
+    padding-top: 5px;
+    height: 35%;
+    border: 5px solid white;
+}
+.resume{
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+}
+.resume .icones img{
+    width: 150px;
+    height: 75px;
+    margin: 5px;
+}
+.resume .icones{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5px;
+    margin-right: 5px;
+    height: 100%;
+}
+.resume .texte p{
+    margin-left: 20px;
+    text-indent: 50px;
+    font-weight: 700;
+    font-family: serif;
+    text-transform: uppercase;
+}
+.resume .texte a{
+    float: right;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+.topnav .references{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+.topnav .topnav-item2{
+    width: 50%;
+}
+.topnav .topnav-item2 a{
+    color:black;
+    text-decoration: none;
+    float: right;
+    padding-right: 100px;
+    overflow: hidden;
+}
+@media only screen and (max-width:780px) {
+    p{
+        font-size: 11px;
+        overflow: hidden;
+    }
+    .topnav .topnav-item{
+        display: block;
+        text-align: center;
+    }
+    .topnav .search-container form button{
+        background-color: white;
+        
+    }
+    .topnav .search-container form{
+        size: 0;
+    }
+    .topnav{
+        height: 100px;
+        display: inline-block;
+        
+        margin-top: 10px;
+    }
+    .resume{
+        height: 300px;
+    }
+}
